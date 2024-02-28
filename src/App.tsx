@@ -2,9 +2,11 @@ import React from 'react'
 import { Sidenav } from './components/Sidenav'
 import { Resumo } from './pages/Resumo'
 import { Header } from './components/Header'
+import { DataContextProvider } from './Context/DataContext'
 
 export const App = () => {
   return (
+    <DataContextProvider>
     <div>
       <Sidenav />
       <main>
@@ -12,5 +14,6 @@ export const App = () => {
         <Resumo />
       </main>
     </div>
+    </DataContextProvider>
   )
 }
