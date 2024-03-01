@@ -1,4 +1,8 @@
-html{
+import {createGlobalStyle} from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
+ 
+ html{
   --color-1:#463220;
   --color-2:#66593c;
   --color-3:#eceadd;
@@ -71,3 +75,5 @@ ul{
   padding: var(--gap);
   gap: var(--gap);
 }
+
+`

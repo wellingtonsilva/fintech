@@ -1,9 +1,1 @@
-import React from 'react'
-
-export const Header = () => {
-  return (
-    <>
-      
-    </>
-  )
-}
+export {Header} from './Header'
