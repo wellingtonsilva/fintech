@@ -26,7 +26,7 @@ export const ButtonMonth = ({n}: {n:number}) => {
     setInicio(formatDate(firstDay))
     setFinal(formatDate(lasttDay))
   }
-
+ 
   return (
     <C.Button onClick={() => setMonth(n)}>{nameMonth(n)}</C.Button>
   )

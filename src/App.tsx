@@ -3,6 +3,7 @@ import { Sidenav } from './components/Sidenav'
 import { Resumo } from './pages/Resumo'
 import { Header } from './components/Header'
 import { DataContextProvider } from './Context/DataContext'
+import { Vendas } from './pages/Vendas'
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <main>
         <Header />
         <Resumo />
+        <Vendas />
       </main>
     </div>
     </DataContextProvider>
