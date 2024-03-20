@@ -6,6 +6,8 @@ export const Sale = styled.div`
   gap:var(--gap);
   align-items:center;
   margin-bottom:var(--gap);
+  background: #fff;
+  padding: var(--gap);
   
   div:last-child{
     justify-self:end;
@@ -14,6 +16,8 @@ export const Sale = styled.div`
   a{
     text-decoration:none;
     color:inherit;
+    font-size: 1.2rem;
     font-family: monospace;
+    text-decoration: underline;
   }
 `

@@ -1,0 +1,1 @@
+export {Venda} from './Venda'
